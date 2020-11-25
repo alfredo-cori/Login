@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi primer Login</title>
+
+        <!--JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        
+        <!-- Los iconos tipo Solid de Fontawesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+        <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+        <!-- Nuestro css-->
+        <link rel="stylesheet" type="text/css" href="static/css/index.css" th:href="@{/css/index.css}">
+
+
+    </head>
+
+    <!-- La caja body -->
+    <body>
+
+        <div class="modal-dialog text-center">           
+            <div class="col-sm-8 main-section">  <!-- main-section para css-->
+                <div class="modal-content">  <!-- modal-content para css, es el cuadro plomo-->
+
+                    <div class="col-12 user-img"> <!-- User-img para css-->
+                        <img src="static/img/user.png" alt="">
+                    </div>
+
+                    <!-- Caja form, la parte de cuadritos donde el usuario ingresara sus datos -->
+                    <form class="col-12">
+
+                        <div class="form-group" id="user-gruop"> <!-- id="user-gruop" -->
+                            <input type="text" class="form-control" placeholder="Nombre de Usuario">
+                        </div>
+                        <div class="form-group" id="contrasena-gruop"> <!-- id="contraseña-gruop" -->
+                            <input type="password" class="form-control" placeholder="Contraseña">
+                        </div>
+                        <button type="submit" class="btn btn-primary"> <i class="fa fa-home"></i> Ingresar</button>
+                    </form>
+
+                    <!-- Para cuadrito de abajo -->
+                    <div class="col-12 forgot"> <!-- forgot para css-->
+                        <a href="#">¿Recordar Contraseña?</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Mi autografo -->
+        <div class="modal-dialog text-center">
+            <div class="col-sm-8 scapa">
+                <div class="tcapa">
+                    <div class="col-12 forgin">
+                        <img src="static/img/Perfil.jpg" height="100px" >
+                        <h6>Alfredo Cori Mamani</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>

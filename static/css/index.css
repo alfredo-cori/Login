@@ -1,0 +1,100 @@
+/* Esta parte esta dentro del body del index.html*/
+body{
+    background: url(../img/fondo3.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+/* En esta parte esta llamando a la clase main-section*/
+.main-section{
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 0;
+}
+
+/* Clase modal-content adorna el fondo del cuadro div */
+.modal-content{
+    background-color: #3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484; /* Sombrea la rededor de la caja */
+}
+
+/* Esta parte o la clase user-img separa la foto de login */
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.user-img img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px #484848;
+    border-radius: 50%; /* como el borde es cuadrado entonces lo agusta a redondo*/
+}
+
+/* desde */
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+/* Editar botones y agrega iconos */
+
+.form-group::before{
+    font-family: "Font Awesome\ 5 free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top: 4px;
+}
+
+.form-group#user-gruop::before{
+    content: "\f007" ;
+}
+.form-group#contrasena-gruop::before{
+    content: "\f023" ;
+}
+
+button{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+
+.forgot{
+    padding: 5px 0;
+}
+
+.forgot a{
+    color: white;
+}
+
+.autor{
+    padding: 5px 0;
+    color: yellow;
+}
+
+/* MI AUTOGRAFO */
+.scapa{
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 0;
+}
+
+.tcapa{
+    background-color: #3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+.forgin{
+    padding: 5px 0;
+}
+
+.forgin h6{
+    color: yellow;
+    padding: 5px;
+}
